@@ -1,0 +1,125 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    font-family: Overpass;
+    height: 100vh;
+}
+
+h1{
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#rating-state h1{
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+p{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.5em;
+}
+
+button{
+    border: none;
+}
+
+.card{
+    background-color: hsl(213, 19%, 18%);
+    width: 325px;
+    height: 336px;
+    border-radius: 12px;
+}
+
+.card-1-content{
+    width: 277px;
+    margin: auto;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: hsl(216, 12%, 22%);
+    color: hsl(217, 12%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.div-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.submit-button{
+    background-color: hsl(25, 97%, 53%);
+    height: 45px;
+    width: 100%;
+    margin-top: 24px;
+    border-radius: 22px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+.submit-button:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.div-buttons button:hover{
+    background-color: hsl(25, 97%, 53%) !important;
+    color: white !important;
+}
+
+#rating-state{
+    display: block;
+    padding-top: 24px;
+}
+
+#thank-you-state{
+    display: none;
+    padding-top: 32px;
+   
+}
+
+.card-2-content{
+    width: 269px;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+}
+
+.you-selected{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216, 12%, 22%);
+    height: 32px;
+    width: 168px;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
+.you-selected p{
+    color:hsl(25, 97%, 53%);
+}
+
+#thank-you-state h1{
+    margin-top: 31px;
+    margin-bottom: 0;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
