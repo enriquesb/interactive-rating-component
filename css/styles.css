@@ -34,13 +34,14 @@ button{
 .card{
     background-color: hsl(213, 19%, 18%);
     width: 325px;
-    height: 336px;
+    height: 360px;
     border-radius: 12px;
 }
 
 .card-1-content{
     width: 85%;
     margin: auto;
+    padding-top: 24px;
 }
 
 .circle{
@@ -52,6 +53,14 @@ button{
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+}
+
+.star{
+    
+}
+
+.star p{
+    color: hsl(25, 97%, 53%);
 }
 
 
@@ -84,13 +93,10 @@ button{
 
 #rating-state{
     display: block;
-    padding-top: 24px;
 }
 
 #thank-you-state{
-    display: none;
-    padding-top: 32px;
-   
+    display: none;   
 }
 
 .card-2-content{
@@ -100,6 +106,7 @@ button{
     flex-flow: column;
     align-items: center;
     text-align: center;
+    padding-top: 32px;
 }
 
 .you-selected{
@@ -125,7 +132,7 @@ button{
 @media (min-width: 450px) {
     .card {
         width: 415px;
-        height: 369px;
+        height: 415px;
     }
 
     .circle{
@@ -138,17 +145,9 @@ button{
         width: 82%;
     }
 
-    #rating-state{
-        padding-top: 32px;
-    }
-
     .card-2-content{
         width: 320px;
-    }
-
-    #thank-you-state{
         padding-top: 46px;
-       
     }
 
     #thank-you-state h1{
