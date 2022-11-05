@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Here](https://www.frontendmentor.io/solutions/interactive-rating-component-htmlcssjs-DrICxMr7j3)
 - Live Site URL: [Here](https://quiet-stroopwafel-1181ef.netlify.app/)
 
 ## My process
