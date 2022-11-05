@@ -55,15 +55,6 @@ button{
     border-radius: 20px;
 }
 
-.star{
-    
-}
-
-.star p{
-    color: hsl(25, 97%, 53%);
-}
-
-
 .div-buttons{
     display: flex;
     flex-direction: row;
